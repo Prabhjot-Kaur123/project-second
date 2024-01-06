@@ -1,0 +1,518 @@
+
+body{
+    
+    font-family: 'Jost', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Teko', sans-serif;
+}
+#im1 img{
+    height: 500px;
+    width: 950px;
+    opacity: 0.5;
+
+    /* z-index: 10; */
+}
+#im1 {
+    height: 1px;
+    border: 20px solid white;
+}
+
+
+nav{
+    width: 85%;
+    height: 60px;
+    margin-left: 70px;
+    background-color: aliceblue;
+    
+    position: relative;
+}
+ul{
+    display: flex;
+    float: right;
+    /* margin-bottom: 1000px; */
+    margin-right: 50px;
+}
+li{
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+li:hover{
+    color: orangered;
+}
+li:hover::before{
+    /* border-left: 1px solid black; */
+    content: "|";
+    padding-left: 20px;
+    display: block;
+    height: 8px;
+    margin-top: -30px;
+    padding-top: 5px;
+    margin-bottom: 8px;
+    
+}
+li:hover::after{
+    content: "|";
+    display: block;
+    height: 8px;
+    padding-left: 20px;
+}
+
+.kite{
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    background-color: aliceblue;
+    margin-left: 49pc;
+    padding-left: 10px;
+    color: grey;
+    display: none;
+}
+/* .pages1:hover{
+    .kite{
+        visibility: visible;
+    }
+    
+} */
+#getfree{
+    background-color: orangered;
+    color: whitesmoke;
+    height: 60px;
+    width: 90px;
+    margin-top: -16px;
+    margin-right: -50px;
+    font-size: x-small;
+    display: grid;
+    place-items: center;
+}
+
+
+#h{
+    background-color: orangered;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size:x-large;
+    padding-top: 10px;
+    display: inline-block;
+    color: whitesmoke;
+}
+#dream{
+    /* margin-top: 10%;
+    margin-left: 50px; */
+    color: #ffffff;
+    display: inline;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 50px;
+}
+#free{
+    background-color: orangered;
+    height: 30px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 13%;
+    color: white;
+    padding: 5px;
+    display: inline;
+    position: absolute;
+}
+.icon{
+    float: inline-end;
+    background-color:burlywood;
+    padding: 10px;
+    display: inline;
+    margin-top: 10%;
+    margin-left: 80%;
+    position: relative;
+}
+#main{
+    display: flex;
+    padding-left: 50px;
+    height: 150px;
+    width: 500px;
+    background-color: orangered;
+    justify-content:space-between;
+    float: right;
+    color: white;
+    position: relative;
+}
+.card{
+    /* border: 1px solid black; */
+    padding: 10px;
+    height: 130px;
+    width: 100px;
+}
+#main2{
+    height: 5%;
+    width: 100%;
+    color: grey;
+    font-size: small;
+    margin-top: 350px;
+    background-color: white;
+    
+}
+#hello{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px;
+    width: 900px;
+    margin-left: 20px;
+}
+.card1{
+    height: 100px;
+    width: 200px;
+    margin-top: 150px;
+}
+#About{
+    height: 100px;
+    width: 200px;
+    margin-top: 250px;
+    font-size: xx-large;
+    margin-left: 600px;
+    display: inline-block;
+}
+
+#hello1{
+    margin-left: 450px;
+    position: absolute;
+    margin-top: -40px;
+}
+#hello1 h2{
+    margin-left: 200px;
+}
+.card2{
+    color: black;
+    height: 100px;
+    width: 200px;
+}
+#Our{
+    margin-left: 50px;
+    margin-top: 100px;
+    position: absolute;
+}
+#main3{
+    margin-left: 50px;
+}
+#main4{
+    background-color: rgb(241, 241, 241);
+    height: 124vh;
+    width: 95%;
+    margin-left: 20px;
+    
+}
+#main4 h1{
+    font-size: 80px;
+    margin-left: 40px;
+    color: rgb(232, 230, 230);
+}
+#main4 h2{
+    margin-top: -100px;
+    margin-left: 70px;
+    color: black;
+}
+.submain4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card3{
+    height: 250px;
+    width: 240px;
+    margin-bottom: 10px;
+    place-items: center;
+    display: grid;
+}
+.card3:hover {
+    opacity: 0.8;
+    display: flex;
+    .circle{
+        display: flex;
+    }
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+    margin-left: -150px;
+    color: black;
+}
+
+#back{
+    background-image: url(https://www.showhouse.co.uk/wp-content/uploads/2018/02/Constructionstudents_760x429.jpg);
+    width: 95%;
+    margin-left:20px ;
+    height: 250px;
+    background-attachment: fixed;
+    height: 500px;
+    position: absolute;
+    margin-top: -100px;
+    z-index: -1;
+}
+
+ #orange{
+    height: 250px;
+    width: 100%;
+    margin-left: 1px;
+    /* background-color: orange; */
+    background-image: linear-gradient(to left,orangered,orangered);
+    margin-top: 0px;
+    margin-bottom: -10px;
+    display: inline-block;
+    opacity: 0.8;
+    display: grid;
+    place-items: center;
+    color: rgb(255, 255, 255);
+    
+}
+#orange p{
+    margin-top: -60px;
+}
+#orange span{
+    margin-top: -70px;
+}
+#orange span:hover{
+    text-decoration: underline;
+}
+#main5{
+    height: 220vh;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    margin-top: -55px;
+}
+#main5 .submain5{
+    color: rgb(235, 232, 232);
+    margin-left: 50px;
+    font-size: 40px;
+}
+#main5 h2{
+    margin-top: -100px;
+    margin-left: 70px;
+    font-size: 30px;
+}
+#main5 .cardmain5{
+    height: 270px;
+    width: 160px;
+    background-color: whitesmoke; 
+}
+#main5 .cardmain5 img{
+    height: 200px;
+    width: 160px;
+}
+.card5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.cardmain5 h4{
+    margin-top: 5px;
+    display: inline;
+}
+.icon1{
+    background-color: orange;
+    width: 20px;
+    padding: 6px;
+    display: inline-block;
+    margin-top: -100px;
+    margin-left: 130px;
+
+}
+#content{
+    height: 300px;
+    width: 400px;
+    margin-top: 10pc;
+    display: inline-block;
+}
+
+#content h1{
+    font-size: 80px;
+    color: rgb(232, 232, 232);
+    margin-left: 50px;
+    display: inline-block;
+    
+}
+/* #content #test{
+    display: inline-block;
+    
+} */
+.sara{
+    height: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+    display: inline-block;
+    margin-left: 5pc;
+    margin-top: -16pc;
+    text-align: center;
+    color: rgb(176, 173, 173);
+}
+.circle1{
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    border-radius: 100%;
+    margin-left: 75px;
+    margin-top: -25px;
+    /* padding-top: 0.0px; */
+    color: whitesmoke;
+   font-size: 20px;
+}
+.Raven{
+    height: 200px;
+    width: 200px;
+   background-color: whitesmoke;
+    display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 9pc;
+    text-align: center;
+    color: rgb(176, 173, 173);
+}
+.john{
+    height: 200px;
+    width: 200px;
+   background-color: whitesmoke;
+    display: inline-block;
+    margin-left: 30.6pc ;
+    margin-top: -135px;
+    text-align: center;
+    color: rgb(176, 173, 173);
+}
+.sami{
+    height: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+    margin-left: 46.1pc ;
+    margin-top: -130px;
+    display: inline-block;
+    text-align: center;
+    color: rgb(176, 173, 173);
+}
+#main6{
+    height: 220vh;
+    width: 100%;
+    background-color: white;
+    margin-top: -69px;
+}
+#blog{
+    font-size: 40px;
+    color: rgb(248, 243, 243);
+    margin-left: 50px;
+    padding-top: 30px;
+}
+#latest{
+    margin-top: -90px;
+    margin-left: 70px;
+}
+.card4{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(252, 110, 58);
+    color: white;
+    text-align: center;
+}
+#maincard4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card4 img{
+    height: 150px;
+    width: 200px;
+}
+.card4 span{
+   font-size:x-small;
+}
+.card4 span:hover{
+    text-decoration: underline;
+}
+.shortmsg{
+    height: 70px;
+    width: 50px;
+    position: absolute;
+    margin-top: -153.7px;
+    margin-left: 150px;
+    background-color: orangered;
+}
+.month{
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    margin-top: -10px;
+    color: rgb(160, 159, 159);
+    padding-top: 10px;
+}
+#orange1{
+    height: 80px;
+    width: 96%;
+    background-color: rgb(251, 91, 32);
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    padding-top: 40px;
+    font-size: small;
+}
+footer{
+    height: 22.7pc;
+    width: 90%;
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    
+}
+#main7{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: -1px; */
+    
+    justify-content: space-evenly;
+}
+.cardmain7{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid yellow; */
+    margin-top: 50px;
+}
+.cardmain7 h6{
+    display: inline;
+}
+.h{
+    display: inline-block;
+    height: 15px;
+    width: 100px;
+    /* border: 1px solid greenyellow; */
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.cardmain7 p{
+    font-size: smaller;
+}
+.cardmain7 span{
+    font-size: x-small;
+}
+.cardmain7 span:hover{
+    border-bottom: 1px solid whitesmoke;
+}
+.ex{
+    margin-left: 20px;
+}
+#nuuk{
+    height: 70px;
+    width: 100px;
+    background-color: orangered;
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+    margin-top: 296px;
+    margin-right: 43pc;
+    position: absolute;
+}
